@@ -1,10 +1,18 @@
 body {
   margin: 0 auto;
   width: 960px;
+  background-color: lightblue;
+}
+.content{
+
+  background-color: rgb(255, 255, 224);
 }
 h1 {
   width: 940px;
   text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  font-size: 3em;
 }
 
 .image-container {
@@ -19,7 +27,7 @@ img {
   right: 0px;
 }
 table {
-  margin: 40px auto;
+  margin: 60px auto;
   width: 940px;
 }
 
@@ -39,4 +47,26 @@ td{
 th{
   padding: 5px;
 }
+.superscript{
+  position: relative;
+  bottom:5px;
+  font-size: 10px;
+  margin-left: 1px;
+}
 
+
+
+th.solid {
+  background-color: aqua;
+}
+
+th.gas{
+  background-color: aquamarine;
+}
+
+.solid{
+  background-color: aqua;
+}
+.gas{
+  background-color: aquamarine;
+}
