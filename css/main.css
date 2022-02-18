@@ -4,8 +4,12 @@ body {
   background-image: url(../images/stars.jpg);
   position: relative;
 }
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+}
 .content {
-  background-color: rgb(255, 255, 224);
+  background-color: #bcdcee;
 }
 h1 {
   width: 940px;
@@ -41,8 +45,10 @@ img {
 
 td:nth-child(1) {
   border: 1px solid;
-  padding: 5px;
+  padding: 10px 0;
   font-weight: bold;
+  background-color: black;
+  color: white;
 }
 
 .style {
@@ -53,7 +59,7 @@ td {
   border-style: solid;
 }
 th {
-  padding: 5px;
+  padding: 10px;
 }
 .superscript {
   position: relative;
@@ -63,18 +69,18 @@ th {
 }
 
 th.solid {
-  background-color: aqua;
+  background-color: #fbd9f8;
 }
 
 th.gas {
-  background-color: aquamarine;
+  background-color: #d9fbdd;
 }
 
 .solid {
-  background-color: aqua;
+  background-color: #fbd9f8;
 }
 .gas {
-  background-color: aquamarine;
+  background-color: #d9fbdd;
 }
 
 .lines {
