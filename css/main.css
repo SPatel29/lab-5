@@ -84,12 +84,11 @@ th.gas {
 }
 
 .lines {
-  border: 6px dotted red;
+  border: 6px dotted lightcoral;
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
   width: 110px;
-  border-spacing: 10;
   position: absolute;
   top: 125px;
   left: 420px;
